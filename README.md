@@ -24,6 +24,10 @@ dotnet run
 
 Open the URL printed by the CLI and select **Manage records**. The database file is generated in the project directory.
 
+## Domain expansion included
+
+This priority edition includes additional domain entities for products, categories and orders. The database context is ready for dedicated controllers, reports, role-based access, and relationship constraints as the next implementation step.
+
 ## Production roadmap
 
 Add ASP.NET Core Identity and role policies, replace EnsureCreated with EF Core migrations, add the remaining domain relationships, audit logging, file storage, reporting, automated tests, and SQL Server deployment configuration.
